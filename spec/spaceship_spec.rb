@@ -3,7 +3,7 @@ require 'spaceship'
 describe Spaceship do
   let (:spaceship) { Spaceship.new }
 
-  it 'can fire at a given angle and knows th range of the shot' do
+  it 'can fire at a given angle and knows the range of the shot' do
     expect(spaceship.shoot(45, 20).round(2)).to eq 40.77
     expect(spaceship.shoot(10, 100).round(2)).to eq 348.64
   end
