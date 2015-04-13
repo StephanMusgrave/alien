@@ -24,6 +24,11 @@ A game to shoot down an alien
 ### To run the unit tests:  
   $ rspec
 
+### Fixed parameters:
+Nozzle velocity: 50 m/s
+Step size for alien movement: 20 m
+Gravity: 9.81 m/s^2
+
 ## Objective  
 There is a player with a spaceship at position 0 along an axis, and there is an alien at some unknown initial position x_0 on that axis.
 
