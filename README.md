@@ -22,7 +22,7 @@ A game to shoot down an alien
   $ ruby game.rb
   
 ### To run the unit tests:  
-  $ rspec --format d
+  $ rspec
 
 ## Objective  
 There is a player with a spaceship at position 0 along an axis, and there is an alien at some unknown initial position x_0 on that axis.
